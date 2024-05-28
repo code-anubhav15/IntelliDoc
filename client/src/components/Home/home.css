@@ -1,0 +1,8 @@
+.shadow-custom {
+    box-shadow: 0 0px 5px 5px rgba(11, 11, 11, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.curvebg{
+    background: url('../../assests/wave.svg');
+    background-repeat: no-repeat;
+}

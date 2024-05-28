@@ -1,0 +1,39 @@
+.popup-container {
+    position: fixed;
+    bottom: 4rem; /* Adjust as needed */
+    right: 4rem; /* Adjust as needed */
+    z-index: 1000;
+    display: block;
+}
+
+.popup-container.open {
+    display: none;
+}
+
+.popup-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative; /* Ensure close button is positioned relative to this container */
+    width: 25rem; /* Adjust width as needed */
+    height: 30rem; /* Adjust height as needed */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: blue;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 4px; /* Add border radius for better appearance */
+    color: white; /* Set text color */
+}
+
+.popup-content iframe {
+    width: 100%; /* Set iframe width to 100% of its container */
+    height: 100%; /* Set iframe height to 100% of its container */
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.mainContainer{
+  background-image: url('../../assests/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  overflow: hidden;
+}
+.profile-container {
+  display: flex;
+  z-index: 1000;
+  height: 85vh;
+  width: 70%;
+  margin: 0;
+  padding: 2%; /* Reset padding */
+  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black */
+  backdrop-filter: blur(10px); /* Add blur effect */
+  border-radius: 4%;
+}
+
+.left-box,
+.right-box {
+  flex: 1;
+  margin: 7px; /* Adjust spacing */
+  border-radius: 20px;
+  display: flex; /* Add display property */
+  flex-direction: column; /* Set flex direction to column */
+}
+
+.left-box {
+  background-color: #ECEFF1; /* Adjust color as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-box {
+  background-color: transparent/* Adjust color as needed */
+}
+
+.right-top-box,
+.right-bottom-box {
+  background-color: #ECEFF1;
+  flex: 1; /* Distribute space evenly */
+  margin: 7px; /* Adjust spacing */
+  border-radius: 20px;
+}
+
+.right-top-box {
+  margin-top: 0px;
+}
+
+.right-bottom-box {
+  margin-bottom: 0px;
+}
+.profimage{
+  margin:1%;
+  border-radius: 10%;
+}
+.profimage img{
+  border-radius: 7%;
+}
+.titlename h1{
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  text-wrap:nowrap;
+  
+}
+.titlename1 h1{
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  text-wrap:nowrap;
+  
+}
+.titlename2 h1{
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  text-wrap:nowrap;
+  
+}
+.details{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+}
+.details p{
+  text-wrap:nowrap;
+  margin-left: 8%;
+}
+.dummy{
+  width: 15%;
+}
+.evaluated-button {
+  margin-left: 5%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.tick-mark {
+  margin-left: 5px;
+  font-size: 18px;
+}
+.details1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+}
+.details1 p{
+  margin-left: 8%;
+}

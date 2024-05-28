@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../repo-intellidoc/IntelliDoc/IntelliDoc/server"
+		}
+	],
+	"settings": {}
+}
